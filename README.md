@@ -4,8 +4,7 @@
 Create a new account page to Olist with password validation
 
 ## What I learn?
-First time using Bootstrap 4 (with imports) and create 3 steps password validation and match
+First time using Bootstrap 4 (with imports) and create 3 steps password validation and match with jQuery
 
 ## Development tools
 **Bootstrap 4** and **jQuery**
-
