@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Olist - Crie sua conta</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/master.css">
+</head>
+<body>
+
+  <div class="container h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+      <div class="col-sm-6 wrapper-box">
+        <img class="mx-auto d-block" src="assets/images/logotype.png" alt="Olist" title="Olist">
+        <p class="wrapper-box__title text-center">Crie sua conta</p>
+        <div>
+          <form method="post" class="form form-newaccount" id="passwordForm">
+            <div class="form-group">
+              <label for="">Nome completo</label>
+              <input type="text" class="form-control" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="">
+              <span class="invalid-email d-block"></span>
+            </div>
+            <div class="form-group">
+              <label for="">Senha</label>
+              <input type="password" class="input-lg form-control" name="password1" id="password1" placeholder="" autocomplete="off">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-newaccount__bullet-steps d-flex flex-row">
+                    <div class="6char-bg bullet-pass-hor"><span class=""></span></div>
+                    <div class="ucase-bg bullet-pass-hor"><span class=""></span></div>
+                    <div class="num-bg bullet-pass-hor"><span class=""></span></div>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <span class="d-block bullet-pass-rounded"><span class="fa fa-circle 6char 6char-text" aria-hidden="true"></span> Pelo menos 6 caracteres</span>
+                  <span class="d-block bullet-pass-rounded"><span class="fa fa-circle ucase ucase-text" aria-hidden="true"></span> Pelo menos 1 letra maiúscula</span>
+                  <span class="d-block bullet-pass-rounded"><span class="fa fa-circle num num-text" aria-hidden="true"></span> Pelo menos 1 número</span>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Confirme sua senha</label>
+              <input type="password" class="input-lg form-control" name="password2" id="password2" placeholder="" autocomplete="off">
+              <span class="invalid-pass d-block"></span>
+            </div>
+            <input type="submit" class="btn btn-green" id="submit" data-loading-text="Criar conta..." value="Criar conta">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.wrapper-box {
+  background-color: white;
+  padding-bottom: 48px;
+  padding-top: 60px;
+}
+
+.wrapper-box__title {
+  color: #312F4F;
+  font-size: 22px;
+  margin-bottom: 37px;
+  padding-top: 24px;
+}
+
+.form {
+  padding: 0 65px;
+}
+
+.form input[type=text],
+.form input[type=email],
+.form input[type=password] {
+  border: 1px solid #B6B9D0;
+  border-radius: 0;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.05);
+  color: #9499B3;
+  padding: .57rem .75rem;
+}
+
+.form-newaccount label {
+  color: #696D8C;
+  /*font-family: 'Soleil Regular';*/
+}
+
+.form-newaccount__bullet-steps {
+  margin-bottom: 13px;
+  margin-top: 8px;
+}
+
+.invalid-email {
+  color: #f79682;
+  margin-top: 5px;
+}
+
+.invalid-pass {
+  margin-top: 5px;
+}
+
+.btn {
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.btn-green {
+  background-color: #17D499;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: .775rem .75rem;
+  width: 100%;
+}
+
+.bullet-pass-hor {
+  background-color: #EAEAF4;
+  border-radius: 10px;
+  height: 8px;
+  width: 100%;
+}
+
+.bullet-pass-hor:nth-child(2) {
+  margin: 0 8px;
+}
+
+.bullet-pass-hor.active {
+  background-color: #1FE6A8;
+}
+
+.bullet-pass-rounded {
+  color: #696D8C;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.bullet-pass-rounded .fa {
+  color: #EAEAF4;
+  font-size: 10px;
+  height: 16px;
+  vertical-align: middle;
+  width: 10px;
+}
